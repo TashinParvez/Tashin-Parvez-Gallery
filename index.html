@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Tashin's Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <heder>
+      <!-- Start of Navbar Segment  -->
+      <div class="navbar-segment overflow-y scroll">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Tashin Parvez Gallery</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">
+                    Home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="aboutme.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="contact-us.html">
+                    Contact Me
+                  </a>
+                </li>
+                <li class="nav-item dropdown active">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Social Accounts
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        target="blank"
+                        href="https://www.facebook.com/tashin.parvez.5"
+                        >Facebook</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        target="blank"
+                        href="https://www.instagram.com/tashin_parvez/"
+                        >Instagram</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        target="blank"
+                        href="https://github.com/TashinParvez"
+                        >GitHub</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" target="blank" href="#">Agora</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" target="blank" href="#"
+                        >Amarpix</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" target="blank" href="#">500px</a>
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        target="blank"
+                        href="https://www.youtube.com/channel/UC9HEgVE7L8QQBNNzV1jkORw"
+                        >YouTube</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        target="blank"
+                        href="https://twitter.com/TashinParvez"
+                        >Twitter</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- End of Navbar Segment  -->
+
+      <!-- Start of Slider Segment  -->
+      <nav class="Slider-segment">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner img-fluid">
+            <div class="carousel-item active">
+              <img src="images/c1.jpg" class="d-block w-100 h-75" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/c2.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/c3.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </nav>
+      <!-- End of Slider Segment  -->
+    </heder>
+    <main>
+      <!-- Start of About ME Segment  -->
+      <segment calss="about_me_segment">
+        <div class="container py-5">
+          <div class="py-5">
+            <h2 class="text-center display-2">About Me</h2>
+            <hr class="w-25 mx-auto" />
+          </div>
+          <div class="row pb-5">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <img
+                class="img-fluid"
+                src="images/c4.jpg"
+                alt="This is a picture of Tashin Parvez"
+              />
+            </div>
+            <div
+              class="
+                col-lg-6 col-md-6 col-sm-12
+                d-flex
+                flex-column
+                justify-content-center
+                align-items-start
+              "
+            >
+              <h4 class="text-uppercase display-6">assalamu-alaikum</h4>
+              <p class="">
+                This is Tashin Parvez, ex student of Shaheed Ramiz Uddin
+                Cantonment College. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Consequuntur fugiat molestias temporibus alias
+                necessitatibus aperiam cum quas vel quo fugit ratione? um
+                obcaecati ullam aperiam suscipit dicta amet saepe temporibus,
+                sed iur culpa nesciunt porro. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Placeat, eos! Eligendi
+                consequuntur temporibus tenetur consequatur cupiditate harum
+                autem, voluptatibus reprehenderit necessitatibus animi
+                repudiandae aliquam amet
+              </p>
+              <button
+                class="btn btn-outline-info"
+                data-bs-placement="right"
+                data-bs-toggle="tooltip"
+                href="https://www.facebook.com/"
+                role="button"
+                title="Who am I"
+                type="button"
+              >
+                Know Me More
+              </button>
+            </div>
+          </div>
+        </div>
+      </segment>
+      <!-- End of About ME Segment  -->
+
+      <!-- Start of Services segment  -->
+      <segment>
+        <div class="services_segment bg-light py-5">
+          <h1 class="text-center display-2">Services</h1>
+          <hr class="w-25 mx-auto mb-5" />
+          <div class="container row mx-auto">
+            <div class="col-xxl-4 col-xl-4 col-md-4 col-sm-12">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="images/IMG20201107072728 (1).jpg"
+                      class="img-fluid rounded-start img-fluid cards_images"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted"
+                          >Last updated 3 mins ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-md-4 col-sm-12">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="images/IMG20190929145341 (2).jpg"
+                      class="img-fluid rounded-start img-fluid cards_images"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted"
+                          >Last updated 3 mins ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-md-4 col-sm-12">
+              <div class="card mb-3" style="max-width: 540px">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img
+                      src="images/LRM_EXPORT_12286549947576_20191103_130900747.jpeg"
+                      class="img-fluid rounded-start img-fluid cards_images"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <p class="card-text">
+                        <small class="text-muted"
+                          >Last updated 3 mins ago</small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-xxl-12 col-xl-12 col-md-12 col-sm-12 text-center my-5"
+            >
+              <button class="btn btn-outline-info" type="button">
+                Check More
+              </button>
+            </div>
+          </div>
+        </div>
+      </segment>
+
+      <!-- End of Services segment  -->
+      <!-- Start of Gallery segment  -->
+      <segment>
+        <div class="gallery_segment py-5">
+          <h1 class="display-2 text-center">Gallery</h1>
+          <hr class="w-25 mx-auto mb-5" />
+          <div class="container row mx-auto gy-2">
+            <div class="col-xxl-4 col-xl-4 col-md-4 col-sm-12 mx-auto">
+              <figure>
+                <img
+                  class="img-fluid"
+                  src="images/20201106_172954.jpg"
+                  alt="This is gallary images"
+                />
+              </figure>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-md-4 col-sm-12">
+              <figure>
+                <img
+                  class="img-fluid"
+                  src="images/20201106_172954.jpg"
+                  alt="This is gallary images"
+                />
+              </figure>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-md-4 col-sm-12">
+              <figure>
+                <img
+                  class="img-fluid"
+                  src="images/20201106_172954.jpg"
+                  alt="This is gallary images"
+                />
+              </figure>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-md-4 col-sm-12">
+              <figure>
+                <img
+                  class="img-fluid"
+                  src="images/20201106_172954.jpg"
+                  alt="This is gallary images"
+                />
+              </figure>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-md-4 col-sm-12">
+              <figure>
+                <img
+                  class="img-fluid"
+                  src="images/20201106_172954.jpg"
+                  alt="This is gallary images"
+                />
+              </figure>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-md-4 col-sm-12">
+              <figure>
+                <img
+                  class="img-fluid"
+                  src="images/20201106_172954.jpg"
+                  alt="This is gallary images"
+                />
+              </figure>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-md-4 col-sm-12">
+              <figure>
+                <img
+                  class="img-fluid"
+                  src="images/20201106_172954.jpg"
+                  alt="This is gallary images"
+                />
+              </figure>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-md-4 col-sm-12">
+              <figure>
+                <img
+                  class="img-fluid"
+                  src="images/20201106_172954.jpg"
+                  alt="This is gallary images"
+                />
+              </figure>
+            </div>
+            <div class="col-xxl-4 col-xl-4 col-md-4 col-sm-12">
+              <figure>
+                <img
+                  class="img-fluid"
+                  src="images/20201106_172954.jpg"
+                  alt="This is gallary images"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </segment>
+      <!-- End of Gallery segment  -->
+
+      <!-- Start of Check Out segment  -->
+      <segment>
+        <div
+          class="
+            row
+            check_out_segment
+            bg-info
+            py-5
+            col-xxl-12 col-xl-12 col-md-12 col-sm-12
+            text-center
+          "
+        >
+          <h1 class="display-6 text-center mx-auto">Check Out MY Videos</h1>
+          <p class="text-center">
+            "You will never get a second chance to take the short"
+            <br />
+            <span> -Tashin Parvez</span>
+          </p>
+          <div class="col-xxl-12 col-xl-12 col-md-12 col-sm-12">
+            <a href="https://www.facebook.com/tashin.parvez.5" target="blank">
+              <button class="btn btn-outline-dark text-center">
+                My Videos &nbsp;
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-box-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"
+                  />
+                </svg>
+              </button>
+            </a>
+          </div>
+        </div>
+      </segment>
+      <!-- End of Check Out segment  -->
+
+      <!-- Start of Contract  segment  -->
+      <segment>
+        <div class="py-5">
+          <h1 class="text-center mx-auto display-2">Contact Me</h1>
+          <hr class="w-25 mx-auto mb-5" />
+          <div class="container col-xxl-6 col-xl-6 col-md-6 col-sm-8">
+            <form>
+              <div class="mb-3">
+                <label class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter Your Full Name"
+                  autocomplete="none"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Mail Address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  placeholder="example@gmail.com"
+                  autocomplete="none"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Enter your Password"
+                  autocomplete="none"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="pe-5">Gender</label>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio1"
+                    value="option1"
+                  />
+                  <label class="form-check-label" for="inlineRadio1"
+                    >Male</label
+                  >
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="inlineRadioOptions"
+                    id="inlineRadio2"
+                    value="option2"
+                  />
+                  <label class="form-check-label" for="inlineRadio2"
+                    >Female</label
+                  >
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleDataList" class="form-label"
+                  >Select your City</label
+                >
+                <input
+                  class="form-control"
+                  list="datalistOptions"
+                  id="exampleDataList"
+                  placeholder="Type to search..."
+                />
+                <datalist id="datalistOptions">
+                  <option value="Dhaka"></option>
+                  <option value="Khulna"></option>
+                  <option value="Shylet"></option>
+                  <option value="Chottrogram"></option>
+                  <option value="Rajshahi"></option>
+                </datalist>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Example textarea</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="exampleCheck1"
+                />
+                <label class="form-check-label" for="exampleCheck1"
+                  >Need reply as soon as possible
+                </label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </segment>
+      <!-- End of Contract  segment  -->
+    </main>
+
+    <!-- Start of footer  segment  -->
+    <footer class="bg-secondary text-center">
+      <p>Copyright © 2021 Tashin's Gallary || Developed by: Tashin Parvez</p>
+    </footer>
+    <!-- End of footer  segment  -->
+
+    <div>
+      <!-- Optional JavaScript; choose one of the two! -->
+
+      <!-- Option 1: Bootstrap Bundle with Popper -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+
+      <!-- Option 2: Separate Popper and Bootstrap JS -->
+      <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+      <script type="text/JavaScript">
+              var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+      </script>
+    </div>
+  </body>
+</html>

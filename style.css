@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.cards_images {
+  height: 224px;
+  width: 143.325px;
+}
+.about_me_navbar {
+  position: relative;
+  height: 200px;
+}
+
+footer p {
+  margin-bottom: 0px;
+}
